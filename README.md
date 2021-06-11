@@ -1,2 +1,5 @@
 # BOJ
-백준 문제풀이
+기본 폴더 : 백준
+
+# Programmers
+programmers 폴더 내
