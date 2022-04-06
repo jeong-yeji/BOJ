@@ -24,7 +24,7 @@ class Solution:
         list = []
         while node:
             list.append(node.val)
-            node = node.nextt
+            node = node.next
         return list
 
     # list to reverse linked list
