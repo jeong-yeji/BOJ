@@ -1,6 +1,9 @@
 # implement-queue-using-stacks
 
 # 내가 구현한 방식
+# 잘못된 풀이
+# 큐는 요소를 삽입하고 삭제하는 위치가 다르지만, 스택은 요소를 삽입,삭제하는 위치가 동일함
+# => 스택의 연산만을 사용해서 풀려면 2개의 스택 필요
 class MyQueue:
     def __init__(self):
         self.s = []

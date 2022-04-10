@@ -18,7 +18,7 @@ class MyQueue:
         if not self.output:
             while self.input:
                 self.output.append(self.input.pop())
-        return self.ouput[-1]
+        return self.output[-1]
 
     def empty(self) -> bool:
         return self.input == [] and self.output == []
