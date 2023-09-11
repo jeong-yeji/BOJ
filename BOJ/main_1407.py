@@ -1,6 +1,6 @@
 def count2(n):
     answer = n
-    for i in range(1, int(n ** 0.5) + 1):
+    for i in range(1, 50):
         answer += (n // (2 ** i)) * (2 ** (i - 1))
     return answer
 
