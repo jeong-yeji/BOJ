@@ -1,5 +1,4 @@
 from itertools import product
 
 n, m = map(int, input().split())
-for pd in product(range(1, n + 1), repeat=m):
-    print(*pd)
+print("\n".join(list(map(' '.join, product(map(str, range(1, n + 1)), repeat=m)))))
