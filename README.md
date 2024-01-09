@@ -12,3 +12,6 @@
 
 # doit
 Do it! 알고리즘 코딩 테스트 파이썬편
+
+# barkingdog
+[바킹독의 실전 알고리즘](https://github.com/encrypted-def/basic-algo-lecture)
